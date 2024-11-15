@@ -1,0 +1,359 @@
+body{
+  background-color: #edf2fa;
+}
+/* LOGIN PAGE CSS */
+.create-acc-container{
+  display: flex;
+  /* background-color: red; */
+}
+.create-acc-context{
+  width: 60%;
+  animation: fade-context 1s ease-in;
+  /* background-color: red; */
+}
+@keyframes fade-context{
+  0%{
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.create-acc-head{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.create-acc-logo{
+  width: 25%;
+}
+.create-acc-logo .img{
+  width: 100%;
+}
+.create-context-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head-text-slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #054886;
+  margin-bottom: 40px;
+}
+.head-text-slide p{
+  width: 82%;
+  font-size: 38px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.head-text-slide small{
+  width: 80%;
+  /* font-size: 23px; */
+  text-align: center;
+  margin-top: 13px;
+}
+.login-img-body{
+  display: flex;
+  justify-content: center;
+}
+.login-img-one{
+  width: 90%;
+}
+.login-img-one .img{
+  width: 100%;
+  object-fit: contain;
+}
+.login-content-container{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  /* background-color: red; */
+}
+.login-content{
+  width: 85%;
+  background-color: white;
+  border-radius: 15px;
+  animation: fade-content 1s ease-in;
+}
+@keyframes fade-content{
+  0%{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+  }
+  100%{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+.login-content-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 5px; */
+  color: #054886;
+  padding: 18px 0;
+  border-bottom: 1px solid #dddddd61;
+}
+.login-content-head h5{
+  font-size: 25px;
+}
+.login-content-head h6{
+  font-size: 14px;
+  font-weight: 400;
+}
+.login-content-body{
+  padding: 30px 35px;
+}
+.login-input{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  color: #054886;
+  margin-bottom: 20px;
+}
+.login-input input{
+  padding: 10px 20px;
+  background-color: #f1f6ff;
+  color: #054886;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+.login-input input:hover{
+  border: 1px solid #0d65f3;
+}
+.login-input input:focus{
+  border: 1px solid #0d65f3;
+}
+.login-input input::placeholder{
+  font-size: 14px;
+  font-weight: 400;
+  color: #054886;
+}
+label{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  gap: 5px;
+}
+.login-input svg{
+    fill: #054886;
+}
+label small{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+  /* background-color: red; */
+}
+.label-icon{
+  font-size: 16px;
+  margin-bottom: 0;
+  /* background-color: blue; */
+}
+.login-buttons{
+  margin-top: 28px;
+}
+.create-acc-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 13px 0;
+  background-color: #0d65f3;
+  color: white;
+  font-size: 20px;
+  /* font-weight: bold; */
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+.create-acc-btn:hover{
+  opacity: 1;
+  /* background-color: white;
+  color: var(--primary);
+  border: 1px solid var(--primary); */
+}
+.sign-google-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 11px 0;
+  color: #054886;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.sign-google-btn .img{
+  width: 6%;
+}
+
+.sign-in-section{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.sign-in-section small{
+  font-size: 13px;
+}
+.sign-in-section a{
+  color: #0d65f3;
+  font-size: 13px;
+}
+.register-text{
+  text-align: center;
+}
+.register-text p{
+  font-size: 13px;
+}
+
+.carousel-control-next{
+  display: none;
+} 
+.carousel-control-next-icon{
+  filter: invert(100%);
+  opacity: 0.7;
+}
+.carousel-control-prev{
+  display: none;
+}
+.carousel-control-prev-icon{
+  filter: invert(100%);
+  opacity: 0.7;
+} 
+.carousel-indicators [data-bs-target]{
+   background-color: var(--primary);
+}
+
+
+
+
+/* LOGIN CSS */
+.user-login-content-container{
+  top: 120px;
+}
+.user-login-input{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* padding: 10px 20px; */
+  background-color: #f1f6ff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.user-login-input input{
+   width: 92%;
+   border: none;
+   background-color: transparent;
+}
+.user-login-input input:hover{
+  border: none;
+}
+.user-login-input input:focus{
+  border: none;
+}
+.user-login-input:focus{
+  border: 1px solid #0d65f3;
+}
+.user-login-input:hover{
+  border: 1px solid #0d65f3;
+}
+.forget-password a{
+  font-size: 13px;
+  color: #0d65f3;
+}
+.login-content-footer {
+  padding-top: 10px;
+  color: #054886;
+}
+.login-content-footer small{
+  font-size: 12px;
+}
+.login-content-footer h6{
+  font-size: 12px;
+}
+.close-eye{
+  display: none;
+}
+.close-eye-one{
+  display: none;
+}
+.close-eye-two{
+  display: none;
+}
+
+
+/* RECOVER PASSWORD */
+.recover-content-head h6{
+   padding: 0 20px;
+   text-align: center;
+}
+.recoover-content-container{
+  top: 160px;
+}
+
+
+
+@media screen and (max-width:950px) {
+  .login-content{
+    width: 100%;
+  }
+}
+@media screen and (max-width:790px) {
+  .create-acc-container{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .create-acc-context{
+    display: none;
+    width: 100%;
+  }
+  .login-content-container{
+    width: 100%;
+    padding: 30px 30px;
+    position: unset;
+  }
+  .login-content-body{
+    padding: 30px 30px;
+  }
+  .login-content{
+    width: 100%;
+  }
+}
+@media (max-width: 686px) {
+  .create-acc-head{
+    margin-top: 5px;
+  }
+}  
+
+@media (max-width: 686px) {
+  .head-text-slide p{
+    width: 93%;
+    font-size: 30px;
+  }
+}  
+
+    

@@ -1,0 +1,158 @@
+
+*{
+  color: var(--text-primary);
+}
+
+/* agency styling */
+.agency-aside-body{
+  color: var(--text-primary);
+  border-bottom: 1px solid #003E8026;
+  padding: 18px 30px;
+}
+.agency-aside-body h5{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.agency-content-container{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20p; */
+}
+.agency-content{
+  width: 40%;
+  padding: 25px 30px;
+}
+.agency-image{
+  width: 100%;
+  height: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.agency-image .img{
+  width: 100%;
+  object-fit: cover;
+}
+.agency-content-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+.agency-download-btn{
+  width: 50%;
+  color: var(--text-primary);
+  background-color: #EDF2FA;
+  border: 1px solid #1A78FE;
+  padding: 13px 10px;
+  border-radius: 5px;
+}
+.agency-preview-btn{
+  width: 50%;
+  color: white;
+  background-color: #1A78FE;
+  padding: 13px 10px;
+  border-radius: 5px;
+}
+.agency-context{
+  width: 60%;
+  background-color: #EDF2FA;
+}
+.agency-context-header{
+  padding: 15px 20px;
+  border-bottom: 1px solid #003E8026;
+}
+.agency-context-header h5{
+  font-size: 17px;
+  font-weight: 600;
+}
+.agency-context-container{
+  height: 500px;
+  padding: 30px 30px;
+  overflow: auto;
+}
+.agency-context-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.agency-context-card{
+  width: 50%;
+  height: 180px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.agency-context-card .img{
+  width: 100%;
+  object-fit: cover;
+}
+/* agency styling ends here*/
+
+
+
+/* reaeller styling */
+.templates-card{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 17px 15px;
+}
+.templates-card-text p{
+    font-size: 20px;
+  font-weight: 600;
+}
+.add-user-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 30px;
+}
+.add-user-btn{
+  padding: 13px 20px;
+  background-color: #1A78FE;
+  color: white;
+  border-radius: 5px;
+}
+.marketing-asset-btn{
+  color: #1A78FE;
+  padding: 13px 20px;
+  background-color: #edf2fa;
+  border-radius: 5px;
+}
+.add-user-Modal.modal{
+  --bs-modal-width: 700px;
+}
+.add-user-content-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.add-user-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+.add-user-content input{
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+}
+.create-reseller-btn-body{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.create-reseller-btn-body button{
+  background-color: #1A78FE;
+  color: white;
+  padding: 11px 20px;
+  border-radius: 5px;
+}
+/* reaeller styling ends here*/
