@@ -21,8 +21,11 @@ dropdownBtns.forEach((dropdownBtn) => {
 
 let cancelEditorModal = document.querySelector(".cancel-editor-modal")
 let linkInBioContainer = document.querySelector(".link-inBio-container")
+let bioElementModal = document.querySelector("#componentsModal");
+
+
 cancelEditorModal.addEventListener("click", ()=>{
-  linkInBioContainer.classList.add("not-active")
+  bioElementModal.classList.add("not-active")
 })
 
 
@@ -222,7 +225,7 @@ for (let i = 0; i < addSocialLinks.length; i++) {
     let postElement = document.createElement('div');
     postElement.classList.add('duplicate-social-link');
     postElement.innerHTML = `
-      <div class="duplicate-social-link">
+      <div class="sidebar-section-one-body">
         <div class="social-links-body">
           <button class="social-link-select">
             <div class="social-link-select-text">
@@ -441,6 +444,75 @@ for (let i = 0; i < addSocialLinks.length; i++) {
     parentContainer.appendChild(postElement);
   });
 }
+// add/duplicate social link ends here
+
+// add/duplicate social link
+// let addItemListing = document.querySelectorAll(".add-item-listing-btn")
+
+// addItemListing.forEach(element => {
+//   let parentContainer = document.querySelector('.sidebar-section-one-body');
+//   element.addEventListener("click", ()=>{
+//     let postElement = document.createElement('sidebar-section-one-body');
+//     postElement.innerHTML = `
+//        <div class="duplicate-social-link">
+//                       <div class="active-and-inactive-header">
+//                         <div class="sidebar-section-one-head" style="padding: 10px 20px;">
+//                           <div class="active-and-inactive-header-content">
+//                             <h5>Add New Item</h5>
+//                             <p>Add the item's image, name, and link.</p>
+//                           </div>
+//                           <button class="active-button-toggle section-toggle-dropdown">
+//                             <div class="active-light-toggle"></div>
+//                           </button>
+//                         </div>
+//                       </div>
+
+//                       <div class="hide-active-toggle" style="padding: 0 20px;">
+//                         <div class="sidebar-section-display">
+//                           <div class="query-cards-container">
+//                             <div class="hero-section-username-input" style="margin-top: 0;">
+//                               <p style="font-size: 13px;">Item Listing Header Text</p>
+//                               <input type="text" name="" id="">
+//                             </div>
+
+//                             <div class="hero-section-username-input" style="margin-top: 15px;">
+//                               <p style="font-size: 13px;">Item Description</p>
+//                               <textarea name="" id=""></textarea>
+//                             </div>
+
+//                             <div class="hero-section-username-input" style="margin-top: 15px;">
+//                               <p style="font-size: 13px;">Item Description</p>
+//                               <div class="item-listing-image-background">
+//                                 <div class="item-listing-img-display">
+//                                   <img src="images/Group 8431.png" class="img">
+//                                 </div>
+//                                 <p>
+//                                   For best results, upload a 500 x 500 pixel photo. Larger images will be resized, which may affect quality.
+//                                 </p>
+                                
+//                                 <div class="">
+//                                   <label for="sportlight-input-image" class="sportlight-label-btn">
+//                                     <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#6C63FF"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>
+//                                     Upload
+//                                   </label>
+//                                   <input type="file" name="" class="sportlight-input-hide-img" id="sportlight-input-image">
+//                                 </div>
+//                               </div>
+
+//                               <div class="hero-section-username-input" style="margin-top: 20px;">
+//                                 <p style="font-size: 13px;">Item link</p>
+//                                 <input type="text" name="" id="">
+//                               </div>
+//                             </div>
+//                           </div>
+//                         </div>
+//                       </div>
+//                       </div>
+
+//      `;
+//     parentContainer.appendChild(postElement);
+//   })
+// });
 // // add/duplicate social link ends here
 
 
