@@ -373,18 +373,14 @@ button.btn.btn-secondary.dropdown-toggle.show {
   background-color: rgba(5, 72, 144, 1);
   border-radius: 50%;
 }
-.acc-dropdown-and-menu .dropdown .dropdown-menu {
-  width: 280px;
-  background-color: rgba(5, 72, 144, 1);
+.dropdown-menu{
+  padding: 0 0;
+  box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+  border: none;
+  overflow: hidden;
 }
-.acc-dropdown-and-menu button.btn.btn-secondary.dropdown-toggle.show {
-  background-color: rgba(5, 72, 144, 1);
-}
-.acc-dropdown-and-menu .dropdown-item {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  padding: 10px 20px;
+.dropdown-item{
+  padding: 0 0 !important;
 }
 .dropdown-item p {
   color: white;
@@ -1306,137 +1302,6 @@ button.btn.btn-secondary.dropdown-toggle.show {
 }
 /* popup embed ends here*/
 
-/* generate QR code */
-.Generate-QR-code-body-container {
-  background-color: #edf2fa;
-  border-radius: 5px;
-  padding: 20px 0;
-  margin-bottom: 22px;
-}
-.generate-QR-code-container {
-  display: flex;
-  border-top: 1px solid rgba(0, 62, 128, 0.15);
-  margin-top: 10px;
-  /* height: 320px; */
-}
-.generate-QR-border-top {
-  border-top: 1px solid rgba(0, 62, 128, 0.15);
-}
-.tweak-checkbox-cont.QR-checkbox-cont {
-  padding: 0 0;
-}
-.QR-image-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.generate-QR-code-content {
-  width: 55%;
-  padding: 20px 0;
-  /* background-color: red; */
-}
-.QR-image {
-  width: 15px;
-}
-.QR-image .img {
-  width: 100%;
-}
-.QR-image-color-container {
-  display: flex;
-  gap: 18px;
-  width: 100%;
-  margin-top: 20px;
-}
-.record-color-input.QR-color-input {
-  width: 45%;
-}
-.record-color-btn.QR-color-btn {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
-  font-size: var(--font-13);
-}
-.record-color-btn input.QR-color-inp {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-.generate-QR-code-context {
-  display: flex;
-  /* justify-content: center; */
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 45%;
-  height: 430px;
-  background-color: white;
-  padding: 20px 30px;
-  border-right: 1px solid rgba(0, 62, 128, 0.15);
-}
-.QR-display-image {
-  width: 100%;
-}
-.QR-display-image .img {
-  width: 100%;
-}
-.QR-link-tag {
-  width: 100%;
-  padding: 10px 10px;
-  border: 1px solid rgba(0, 62, 128, 0.15);
-  border-radius: 5px;
-  transition: 0.3s;
-}
-.QR-link-tag:hover {
-  border: 1px solid rgba(13, 101, 243, 0.45);
-}
-.QR-download-btn {
-  width: 100%;
-  transition: all 0.3s;
-  opacity: 0.8;
-}
-.QR-download-btn .btn-secondary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
-  padding: 8px 10px;
-  color: white;
-  background-color: var(--yellow-btn);
-  border: none;
-  border-radius: 20px;
-}
-.QR-download-btn .dropdown-toggle::after {
-  display: none;
-}
-.btn.show {
-  background-color: var(--yellow-btn);
-}
-.QR-download-btn:hover {
-  transform: translatey(10%);
-  opacity: 1;
-}
-.dropdown-menu.generate-QR-dropdown-menu {
-  padding: 0 0;
-}
-.generate-QR-dropdown-menu li {
-  /* background-color: red; */
-  padding: 3px 10px;
-  /* margin-bottom: 5px; */
-}
-.generate-QR-dropdown-menu li:hover {
-  background-color: #edf2fa;
-  color: black;
-}
-.dropdown-list {
-  background-color: red;
-  padding: 5px 10px;
-}
-/* generate GR code ends here*/
-
-/* Share your Query Link */
 
 .share-social-media-handles {
   display: flex;
@@ -1727,7 +1592,7 @@ button.btn.btn-secondary.dropdown-toggle.show {
   background-color: white;
   max-width: 95%;
   max-height: 95vh;
-  height: auto;
+  /* height: auto; */
   /* overflow-y: auto; */
   animation: scaleUp 0.5s ease-in-out;
 }
@@ -3299,6 +3164,10 @@ td input {
 .linkIn-bio-description-img .img {
   width: 100%;
 }
+.linkIn-bio-description-cont p{
+  text-align: center;
+  width: 380px;
+}
 .add-linkIn-bio-element-button {
   display: flex;
   justify-content: center;
@@ -3745,6 +3614,10 @@ td input {
   resize: none;
   transition: 0.3s;
 }
+.hero-section-username-input textarea::placeholder{
+  font-size: 12px;
+  color: #003E8033;
+}
 .hero-section-username-input textarea:hover {
   /* background-color: #EDF2FA; */
   border: 1px solid #1a78fe;
@@ -4095,6 +3968,7 @@ td input {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  width: 50%;
 }
 .cards-button-display p {
   font-size: 15px;
@@ -4537,11 +4411,7 @@ button.btn.btn-secondary.dropdown-toggle.show{
   border: none;
 }
 
-/* .sidebar-section-one-body.active-and-inactive-container{
-  max-height: unset !important;
-  overflow-y: hidden !important;
-  background-color: #EDF2FA !important;
-} */
+/* item listing */
 .active-and-inactive-header{
   border-bottom: 1px solid #003E8012;
 }
@@ -4577,7 +4447,36 @@ button.btn.btn-secondary.dropdown-toggle.show{
   font-size: 10px;
   /* background-color: red; */
 }
+/* item listing ends here*/
 
+/* portfolio section */
+.nav-tabs .nav-link.active{
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: 2px solid #003E80;
+  color: #003E80;
+  font-size: 15px;
+}
+.nav-link{
+  font-size: 13px;
+  color: #003E80;
+}
+.nav-link:hover{
+  border: none;
+}
+
+.portfolio-use-ai-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.use-ai-btn{
+  padding: 3px 18px;
+  color: #6C63FF;
+  font-size: 12px;
+  border: 1px solid #6C63FF;
+  border-radius: 3px;
+}
+/* portfolio section ends here*/
 
 
 
