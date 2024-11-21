@@ -3510,6 +3510,7 @@ td input {
   justify-content: center;
   gap: 25px;
   padding: 10px 0;
+  /* position: fixed; */
 }
 .linkIn-bio-sectors-body-footer.add-more-element-body-footer {
   display: flex;
@@ -3607,8 +3608,8 @@ td input {
   opacity: 0.6;
 }
 .placeholder-edit input::placeholder{
-  font-size: 12px;
-  color: #003E8033;
+  font-size: 11px;
+  /* color: #003E8033; */
 }
 .hero-section-username-input textarea {
   height: 90px;
@@ -3620,8 +3621,10 @@ td input {
   transition: 0.3s;
 }
 .hero-section-username-input textarea::placeholder{
-  font-size: 12px;
-  color: #003E8033;
+  font-size: 11px;
+  color: #0e5fb6; 
+  opacity: 0.6;
+  /* color: #003E8033; */
 }
 .hero-section-username-input textarea:hover {
   /* background-color: #EDF2FA; */
@@ -3871,7 +3874,7 @@ td input {
   padding: 25px 10px;
 }
 .social-links-container {
-  max-height: 350px;
+  height: 350px;
   overflow-y: auto;
   padding: 0 15px;
 }
@@ -4421,11 +4424,11 @@ button.btn.btn-secondary.dropdown-toggle.show{
   border-bottom: 1px solid #003E8012;
 }
 .active-and-inactive-header-content h5{
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
 }
 .active-and-inactive-header-content p{
-  font-size: 11px;
+  font-size: 12px;
   color: #003E80;
 }
 .item-listing-image-background{
@@ -4480,6 +4483,10 @@ button.btn.btn-secondary.dropdown-toggle.show{
   font-size: 12px;
   border: 1px solid #6C63FF;
   border-radius: 3px;
+}
+.optional-span{
+  font-weight: 400;
+  font-size: 11px !important;
 }
 /* portfolio section ends here*/
 
