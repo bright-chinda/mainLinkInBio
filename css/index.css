@@ -242,7 +242,7 @@ button {
   /* height: 100vh; */
   display: flex;
   flex-direction: column;
-  background-color: red;
+  /* background-color: red; */
 }
 .rect_filled_button {
   background-color: #003e80;
