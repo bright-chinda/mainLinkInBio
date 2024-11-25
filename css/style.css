@@ -4804,21 +4804,6 @@ button.btn.btn-secondary.dropdown-toggle.show{
   background-color: #edf2fa;
   border-radius: 8px;
 }
-.ask-me-suggested-topic {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 5px;
-  /* padding: 10px 0; */
-}
-.ask-me-suggested-topic button {
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  color: white;
-  font-size: var(--font-11);
-  padding: 3px 20px;
-  border-radius: 20px;
-}
 
 .ask-me-anything-about-container {
   width: 100%;
