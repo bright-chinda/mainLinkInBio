@@ -60,6 +60,11 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
+.span-required{
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .profile-dropdown ul li a span {
   width: var(--font-35);
   height: var(--font-35);
@@ -3243,6 +3248,9 @@ td input {
   flex-direction: column;
   align-items: flex-end;
   gap: 10px;
+}
+.saved-elements-texts{
+  padding: 15px 0;
 }
 .saved-elements-texts h5 {
   font-size: var(--font-15);
