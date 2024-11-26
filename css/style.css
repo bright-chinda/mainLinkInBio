@@ -4848,21 +4848,6 @@ button.btn.btn-secondary.dropdown-toggle.show{
   background-color: #edf2fa;
   border-radius: 8px;
 }
-.ask-me-suggested-topic {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 5px;
-  /* padding: 10px 0; */
-}
-.ask-me-suggested-topic button {
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  color: white;
-  font-size: var(--font-11);
-  padding: 3px 20px;
-  border-radius: 20px;
-}
 
 .ask-me-anything-about-container {
   width: 100%;
@@ -5319,7 +5304,7 @@ button.btn.btn-secondary.dropdown-toggle.show{
 
 /* display portfolio */
 .display-portfolio-container{
-  padding: 20px 20px;
+  padding: 30px 30px;
   border: 1px solid #00000033;
   /* box-shadow: 0 0 5px rgb(0 0 0 / 30%); */
   border-radius: 10px;
@@ -5338,7 +5323,7 @@ button.btn.btn-secondary.dropdown-toggle.show{
   border: 1px solid #00000033;
   border-radius: 10px;
   padding: 15px 20px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .portfolio-overview h5{
   text-align: center;
@@ -5359,7 +5344,8 @@ button.btn.btn-secondary.dropdown-toggle.show{
 .specialization-body{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 15px;
 }
 .specialization{
   padding: 5px 20px;
@@ -5384,7 +5370,7 @@ button.btn.btn-secondary.dropdown-toggle.show{
   margin-bottom: 10px;
 }
 .project-head p{
-  font-size: 12px;
+  font-size: 13px;
 }
 .project-head h5{
   font-size: 14px;
@@ -5401,6 +5387,30 @@ button.btn.btn-secondary.dropdown-toggle.show{
 }
 .portfolio-image .img{
   width: 100%;
+}
+.portfolio-challange-faced{
+  margin-top: 30px;
+}
+.portfolio-result ul{
+  padding: 10px 20px;
+}
+.portfolio-result ul li{
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.conclusion-btn-container{
+  display: flex;
+  justify-content: center;
+}
+.conclusion-btn-container button{
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.portfolio-previous{
+  margin-bottom: 20px;
 }
 /* display portfolio */
 
