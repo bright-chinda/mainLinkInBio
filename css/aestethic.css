@@ -1,0 +1,133 @@
+/* theme setting content */
+.theme-setting-content {
+    padding: 5px 20px;
+  }
+  .theme-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    border: 1px solid #003E8012;
+    padding: 10px 10px;
+    border-radius: 3px;
+  }
+  .theme-card-border{
+    width: 100%;
+    padding: 10px 10px;
+    /* border: 1px solid white; */
+    margin-bottom: 8px;
+    border-radius: 1px;
+  }
+  .theme-box-body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .theme-box-body h5{
+    text-align: center;
+    font-size: 13px;
+  }
+  .air-smoke{
+    background-color: #2A3235;
+  }
+  .air-smoke-boder{
+    background-color: #ffffff;
+  }
+  .air-black{
+    background-color: #000000;
+  }
+  .air-black-boder{
+    background-color: #1C1C1C;
+  }
+  .mineral-blue{
+    background-color: #E0F6FF;
+  }
+  .mineral-blue-boder{
+    background-color: #B3C5CC;
+  }
+  .mineral-Green{
+    background-color: #E0FAEE;
+  }
+  .mineral-Green-boder{
+    background-color: #B3C5CC;
+  }
+  .mineral-orange{
+    background-color: #FFEEE2;
+  }
+  .mineral-orange-boder{
+    background-color: #CFC1B8;
+  }
+  .mineral-yellow{
+    background-color: #FFF8E0;
+  }
+  .mineral-yellow-boder{
+    background-color: #D2CCB8;
+  }
+  .noir{
+    background: linear-gradient(180deg, #727D8C 0%, #232A35 100%);
+  }
+  .noir-boder{
+    background-color: #ffffff;
+  }
+  .bloom{
+    background: linear-gradient(180deg, #DD32EB 0%, #872299 100%);
+  }
+  .bloom-boder{
+    background-color: #ffffff;
+  }
+  .edit-backgroundcolor{
+    background-color: #EDF2FA;
+    padding: 10px 0;
+    border-radius: 8px;
+  }
+  .edit-backgroundcolor-header{
+    border-bottom: 1px solid #003E801A;
+    padding: 10px 20px;
+  }
+  /* .aesthetic{
+    background-color: red;
+  } */
+  .aesthetic .tab-content .active{ 
+    background-color: white;
+    background: white !important;
+    padding: 20px 20px;
+    border-radius: 4px;
+  }
+  .color-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #EDF2FA;
+    padding: 20px 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  .record-color-input select{
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #cfd3d7;
+  }
+  .gradient-content{
+    width: 100%;
+  }
+  .gradient-content select{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #cfd3d7;
+  }
+  /* theme setting content ends here*/
+
+
+
+  @media screen and (max-width:570px) {
+    .color-flex-container{
+      flex-direction: column;
+    }
+    .record-color-input{
+      width: 100%;
+    }
+  }
