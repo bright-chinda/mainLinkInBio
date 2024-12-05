@@ -2414,6 +2414,22 @@ input:focus.media-library-search {
   font-size: 14px;
   font-weight: 400;
 }
+.settings-save-button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.settings-save-button button{
+  background: linear-gradient(90deg, #4174FF 0%, #A700FF 50%, #FFA800 100%);
+  color: white;
+  border-radius: 5px;
+  padding: 8px 20px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.settings-save-button button:hover{
+  opacity: 1;
+}
 .record-color-btn {
   display: flex;
   align-items: center;
